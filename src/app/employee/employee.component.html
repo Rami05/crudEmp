@@ -1,0 +1,28 @@
+<div class="rostom">
+  <button type="button" class="btn btn-success" (click)="openAdd()">Add</button>
+
+  <table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of liste" >
+      <th>{{emp.id}}</th>
+      <td>{{emp.name}}</td>
+      <td>{{emp.username}}</td>
+      <td>
+        <button type="button" class="btn btn-danger" (click)= delete(emp)>Supprimer</button>
+        <button type="button" class="btn btn-warning"(click)= openUpdate(emp) >Modifier</button>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+

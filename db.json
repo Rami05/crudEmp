@@ -1,0 +1,10 @@
+{
+  "employee": [
+    { "id": 1, "nom": "json-server", "prebom": "rostom" },
+    { "id": 1, "nom": "json-server", "prebom": "rami" },
+    { "id": 1, "nom": "json-server", "prebom": "salah" },
+    { "id": 1, "nom": "json-server", "prebom": "aali" },
+    { "id": 1, "nom": "json-server", "prebom": "typicode" }
+
+  ]
+}

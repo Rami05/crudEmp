@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ihm';
+  public static URl= "http://localhost:8088"
+
+  
 }
